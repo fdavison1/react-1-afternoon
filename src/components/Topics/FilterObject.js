@@ -53,7 +53,7 @@ handleChange(val){
              <h4>Filter Object</h4>
              <span className="puzzleText">Original: { JSON.stringify(this.state.employees, null, 10) }</span>
              <input className="inputLine" onChange={(e) => this.handleChange(e.target.value)}/>
-             <button className="confimationButton" onClick={ () => this.filterObjs(this.state.userInput)}>Filter</button>
+             <button className="confirmationButton" onClick={ () => this.filterObjs(this.state.userInput)}>Filter</button>
              <span className="resultsBox filterObjectRB">Filtered: { JSON.stringify(this.state.filteredEmployees, null, 10) }</span>
          </div>
      )
