@@ -14,7 +14,7 @@ class TopicBrowser extends Component {
     render() {
         return(
             <div>
-                <h1>Topic Browser</h1>
+                <h1>React 1 Assignment</h1>
             <EvenAndOdd/>
             <FilterObject/> 
             <FilterString/>
