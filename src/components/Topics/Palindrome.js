@@ -8,7 +8,13 @@ class Palindrome extends Component {
 
  render(){
      return(
-         <p>Palindrome</p>
+         <div className="puzzleBox filterStringPB">
+            <h4>Palindrome</h4>
+            <input className="inputLine"/>
+            <button className="confirmationButton"></button>
+            <span className="resultsBox"></span>
+         </div>
+        
      )
  }
 }
